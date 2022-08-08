@@ -47,7 +47,7 @@ def load_frame1():
     frame1.pack_propagate(False)
 
     # frame1 widget
-    logo_img = ImageTk.PhotoImage(file=r"C:\Users\pafcio\Desktop\logo1.png")
+    logo_img = ImageTk.PhotoImage(file="logo.png")
     logo_widget = tk.Label(frame1, image=logo_img, bg=bg_color)
     logo_widget.image = logo_img
     logo_widget.pack()
@@ -66,7 +66,7 @@ def load_frame2():
     title, ingredients = pre_process(table_name, table_records)
 
     # frame2 widget
-    logo_img = ImageTk.PhotoImage(file=r"C:\Users\pafcio\Desktop\logo1.png")
+    logo_img = ImageTk.PhotoImage(file="logo.png")
     logo_widget = tk.Label(frame2, image=logo_img, bg=bg_color)
     logo_widget.image = logo_img
     logo_widget.pack()
